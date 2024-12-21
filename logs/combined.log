@@ -1,0 +1,111 @@
+2024-12-20 13:46:02 [INFO]: Attempting to connect to database...
+2024-12-20 13:46:13 [INFO]: Attempting to connect to database...
+2024-12-20 13:46:15 [INFO]: __Connected to database successfully__
+2024-12-20 13:46:26 [ERROR]: Kafka connection error Connection error: 
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: 
+    at Socket.onError (D:\Distributed-Notification-and-Alert-System\notification-system\node_modules\kafkajs\src\network\connection.js:210:23)
+    at Socket.emit (node:events:520:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-20 13:46:34 [INFO]: Attempting to connect to database...
+2024-12-20 13:46:53 [INFO]: Attempting to connect to database...
+2024-12-20 13:46:54 [INFO]: __Connected to database successfully__
+2024-12-20 13:47:01 [ERROR]: Kafka connection error Connection error: 
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: 
+    at Socket.onError (D:\Distributed-Notification-and-Alert-System\notification-system\node_modules\kafkajs\src\network\connection.js:210:23)
+    at Socket.emit (node:events:520:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-20 14:29:51 [INFO]: Attempting to connect to database...
+2024-12-20 14:29:54 [INFO]: __Connected to database successfully__
+2024-12-20 14:30:02 [ERROR]: Kafka connection error Connection error: 
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: 
+    at Socket.onError (D:\Distributed-Notification-and-Alert-System\notification-system\node_modules\kafkajs\src\network\connection.js:210:23)
+    at Socket.emit (node:events:520:28)
+    at Socket.emit (node:domain:488:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-20 14:31:16 [INFO]: Attempting to connect to database...
+2024-12-20 14:31:17 [INFO]: __Connected to database successfully__
+2024-12-20 14:31:17 [INFO]: Kafka connected successfully
+2024-12-20 14:31:17 [INFO]: Notification Scheduler initialized
+2024-12-20 14:31:17 [INFO]: Server running on port 3000
+2024-12-20 14:35:36 [INFO]: Overall delivery analytics retrieved
+2024-12-21 12:33:00 [INFO]: Attempting to connect to database...
+2024-12-21 12:33:00 [INFO]: __Connected to database successfully__
+2024-12-21 12:33:01 [INFO]: Kafka connected successfully
+2024-12-21 12:33:01 [INFO]: Notification Scheduler initialized
+2024-12-21 12:33:01 [INFO]: Server running on port 3000
+2024-12-21 12:35:08 [INFO]: Overall delivery analytics retrieved
+2024-12-21 12:39:32 [INFO]: Attempting to connect to database...
+2024-12-21 12:39:32 [INFO]: __Connected to database successfully__
+2024-12-21 12:39:32 [INFO]: Kafka connected successfully
+2024-12-21 12:39:32 [INFO]: Notification Scheduler initialized
+2024-12-21 12:39:32 [INFO]: Server running on port 3000
+2024-12-21 12:48:49 [ERROR]: User preferences creation failed UserPreference validation failed: channels.0: `EMAIL` is not a valid enum value for path `channels.0`.
+ValidationError: UserPreference validation failed: channels.0: `EMAIL` is not a valid enum value for path `channels.0`.
+    at model.Document.invalidate (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\mongoose\lib\document.js:3331:32)
+    at C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\mongoose\lib\document.js:3092:17
+    at C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\mongoose\lib\schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-12-21 12:51:11 [INFO]: Attempting to connect to database...
+2024-12-21 12:51:11 [INFO]: __Connected to database successfully__
+2024-12-21 12:51:12 [INFO]: Kafka connected successfully
+2024-12-21 12:51:12 [INFO]: Notification Scheduler initialized
+2024-12-21 12:51:12 [INFO]: Server running on port 3000
+2024-12-21 12:56:16 [ERROR]: Notification creation failed types.filter is not a function
+TypeError: types.filter is not a function
+    at createNotification (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\controllers\notification.controller.ts:12:32)
+    at Layer.handle [as handle_request] (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:47:12)
+2024-12-21 12:59:07 [ERROR]: Notification creation failed types.filter is not a function
+TypeError: types.filter is not a function
+    at createNotification (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\controllers\notification.controller.ts:12:32)
+    at Layer.handle [as handle_request] (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\express\lib\router\index.js:47:12)
+2024-12-21 13:00:00 [INFO]: Found 0 pending notifications to process
+2024-12-21 13:01:41 [INFO]: Notification ingested for user s2223
+2024-12-21 13:01:41 [INFO]: Notification created:  Your appointment is confirmed!
+2024-12-21 13:03:15 [INFO]: Overall delivery analytics retrieved
+2024-12-21 14:00:00 [INFO]: Found 0 pending notifications to process
+2024-12-22 00:12:41 [INFO]: Attempting to connect to database...
+2024-12-22 00:12:42 [INFO]: __Connected to database successfully__
+2024-12-22 00:12:53 [ERROR]: Kafka connection error Connection error: connect ECONNREFUSED ::1:9092
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (C:\Users\satya\Downloads\Distributed-Notification-and-Alert-System\Distributed-Notification-and-Alert-System\notification-system\node_modules\kafkajs\src\network\connection.js:210:23)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-22 00:15:06 [INFO]: Attempting to connect to database...
+2024-12-22 00:15:06 [INFO]: __Connected to database successfully__
+2024-12-22 00:15:06 [INFO]: Kafka connected successfully
+2024-12-22 00:15:06 [INFO]: Notification Scheduler initialized
+2024-12-22 00:15:06 [INFO]: Server running on port 3000
+2024-12-22 00:31:32 [INFO]: Notification ingested for user satya123
+2024-12-22 00:31:33 [INFO]: Notification created:  Good night !!!
+2024-12-22 00:35:09 [INFO]: Overall delivery analytics retrieved
